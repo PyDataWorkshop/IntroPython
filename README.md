@@ -1,4 +1,4 @@
-PyGIS
-=====
+Introduction to Python
+=====================
 
-GIS with Python
+Getting Started with Python
