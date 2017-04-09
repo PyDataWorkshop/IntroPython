@@ -1,0 +1,92 @@
+\huge
+\[ \mbox{ Classification with Scikit-Learn} \]
+
+  
+
+\textbf{Understanding Classification}\\
+Although regression and classification appear to be very different they are in fact similar problems.
+
+<ul>
+ In regression our predictions for the response are real-valued numbers
+ on the other hand, in classification the response is a mutually exclusive class label 
+ Example ``\textit{Is the email spam?}" or ``\textit{Is the credit card transaction fraudulent?}".
+<\ul>
+
+
+  
+
+
+ 
+ \textbf{Binary Classsification Problems}\\
+ <ul>
+ If the number of classes is equal to two, then we call it a binary classification problem; if there are more than two classes, then we call it a multiclass classification problem.
+  In the following we will assume binary classification because it’s the more general case, and — we can always represent a multiclass problem as a sequence of binary classification problems.
+<\ul>
+
+
+  
+
+
+\textbf{Credit Card Fraud}
+<ul>
+ We can also think of classification as a function estimation problem where the function that we want to estimate separates the two classes. 
+ This is illustrated in the example below where our goal is to predict whether or not a credit card transaction is fraudulent
+ he dataset is provided by James et al., \textbf{Introduction to Statistical Learning}.
+<\ul>
+
+
+
+  
+
+
+\vspace{-1cm}
+\textbf{Credit Card Fraud}
+\begin{figure}
+\centering
+\includegraphics[width=1.2\linewidth]{sklcass/sklclass1}
+
+\end{figure}
+
+
+  
+
+
+\textbf{Credit Card Fraud}
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{sklcass/sklclass2}
+
+\end{figure}
+
+
+
+  
+
+
+\textbf{Credit Card Fraud}
+<ul>
+ On the left you can see a scatter plot where fraudulent cases are red dots and non-fraudulent cases are blue dots. 
+ A good separation seems to be a vertical line at around a balance of 1400 as indicated by the boxplots on the next slide.
+<\ul>
+
+
+
+
+  
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.95\linewidth]{sklcass/sklclass3}
+
+\end{figure}
+
+
+
+
+ #===
+\begin{figure}
+\centering
+\includegraphics[width=0.9\linewidth]{sklcass/sklclass4}
+\end{figure}
+ #===
